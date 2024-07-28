@@ -1,0 +1,20 @@
+h1 {
+    color: darkorchid;
+    text-align: center;
+} 
+p{ 
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.imagen img{
+    display: flex;
+     align-content: center;
+    
+    height: 250; width: 600;
+}
+
+
+
