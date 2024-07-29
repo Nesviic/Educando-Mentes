@@ -1,6 +1,11 @@
+body{
+    background-color: #F1BAFF;
+}
+
 h1 {
-    color: darkorchid;
+   color: antiquewhite;
     text-align: center;
+    background-color: rgba(137, 43, 226, 0.548);
 } 
 p{ 
     text-align: center;
@@ -9,12 +14,18 @@ h2{
     text-align: center;
 }
 
-.imagen img{
-    display: flex;
-     align-content: center;
-    
-    height: 250; width: 600;
+#titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
 }
+#titulo2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: italic;
+}
+#imagen{
+    height: 250px; width: 250px;
 
 
-
+}
