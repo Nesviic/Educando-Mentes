@@ -7,25 +7,36 @@ h1 {
     text-align: center;
     background-color: rgba(137, 43, 226, 0.548);
 } 
-p{ 
-    text-align: center;
-}
+
 h2{
     text-align: center;
 }
 
 #titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 60px;
     font-style: italic;
 }
 #titulo2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-size: 30px;
     font-style: italic;
 }
-#imagen{
-    height: 250px; width: 250px;
+#imagen {
+
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+}
+#parrafo{ 
+  justify-content:left;
+  align-items: flex-start;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
 
 
+.contenedor{
+    display: flex;
+    justify-content: center;
 }
