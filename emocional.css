@@ -26,17 +26,26 @@ h2{
 
     height: 400px;
     width: 400px;
-    margin-right: 10px;
+    margin-left: 30px;
 }
 #parrafo{ 
   justify-content:left;
   align-items: flex-start;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
+  margin: 40px;
 }
 
 
 .contenedor{
     display: flex;
     justify-content: center;
+}
+
+#img2{
+
+    width: 250px;
+    height: 500px;
+    margin-block-end: 40px;
+
 }
