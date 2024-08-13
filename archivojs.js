@@ -15,10 +15,10 @@ for(let iterador = 0; iterador < 30; iterador++) {
     
          }
           
-         let quiensos = prompt(como es tu nombre?)
-         while(quiensos != Victoria paz) {
+         let quiensos = prompt("como es tu nombre?")
+         while(quiensos != Victoria) {
             alert ("error, solo puede ingresar Victoria paz");
-            quiensos=prompt(como es tu nombre?)
+            quiensos=prompt("como es tu nombre?")
          }
 
          alert ("Bienvenida" + quiensos); // Bienvenida Victoria paz
