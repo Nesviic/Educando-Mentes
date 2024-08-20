@@ -78,12 +78,18 @@ justify-content: right;
 #clase{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#Menu{
- font-family: Georgia, 'Times New Roman', Times, serif;
- 
-color: black;
-display: flex;
-justify-content: space-around;
+#menu{
+
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    list-style: none; /* Quita los marcadores de lista */
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre */ 
+    
 }
 
 
@@ -113,8 +119,24 @@ h3{
     justify-content: space-around;
 }
 #imagen3{
+
     height: 350px;
     width: 400px ;
     margin-left: 30px;
 
 }
+
+
+    #menu a {
+        text-decoration: none;
+        color: rgb(235, 129, 235); 
+        
+}
+
+
+
+    h4{
+        display: flex;
+        justify-content: center;
+    }
+    
