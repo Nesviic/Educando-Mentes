@@ -1,5 +1,5 @@
 const anio = 2024
-let = prompt("ingrese su anio de nacimiento")
+let = prompt("ingrese su año de nacimiento")
 // calculo la edad
 let edad = anio - aniodenacimiento
 alert ("segun mi cuentas tenes" + edad + "años")

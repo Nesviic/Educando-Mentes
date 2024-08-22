@@ -1,6 +1,23 @@
 body{
     background-color: #f6eef8;
+
 }
+
+
+/* probando poner el logo en la barra de navegación*/
+  /*                                      */
+logo-titulo {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el título */
+  }
+  
+  logo {
+    height: 40px; /* Ajusta esto según el tamaño deseado de tu logo */
+    margin-right: 10px; /* Espacio entre el logo y el título */
+  }
+  /* probando poner el logo en la barra de navegación*/
+  
+
 
 
 
@@ -138,5 +155,16 @@ h3{
     h4{
         display: flex;
         justify-content: center;
+    }
+    #miBoton {
+        position: fixed;
+        bottom: 50px; /* Espacio desde la parte inferior */
+        right: 50px; /* Espacio desde la parte derecha */
+        width: 5px;
+        height: 5px;
+    }
+    #imgboton {
+        width: 50px; /* Ancho deseado */
+        height: 50px; /* Alto deseado */
     }
     
