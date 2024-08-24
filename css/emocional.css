@@ -167,4 +167,18 @@ h3{
         width: 50px; /* Ancho deseado */
         height: 50px; /* Alto deseado */
     }
+    #imagen3{
+        width: 300px;
+    }
+    ol{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     margin-left: 50px;
+     margin-right: 50px;
+
     
+    }
+    #contenedor4{
+        font-size:larger;
+    }
