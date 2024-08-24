@@ -1,3 +1,25 @@
+window.alert("¡Bienvenida a nuestra página!");
+
+const introduccion = document.getElementById ("Introduccion")
+
+//escuchadores de eventos
+
+introduccion.addEventListener
+('mouseover', function() {
+   introduccion.style.backgroundColor = "#d571ed "; // Cambia a violetita cuando paso el mouse
+});
+
+
+introduccion.addEventListener('mouseout', function() {
+   introduccion.style.backgroundColor = '#f6eef8 '; // Vuelve al blanco al sacar el mouse
+});
+
+document.getElementById('alertconimg').addEventListener('click', function() {
+   document.getElementById('alertconimg').style.display = 'block';
+ });
+
+
+
 const anio = 2024
 let = prompt("ingrese su año de nacimiento")
 // calculo la edad
