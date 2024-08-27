@@ -53,6 +53,7 @@ h2{
     height: 400px;
     width: 400px;
     margin-left: 30px;
+    
 }
 .parrafo{ 
   justify-content:left;
@@ -135,12 +136,12 @@ h3{
     display: flex;
     justify-content: space-around;
 }
-#imagen3{
+.imagen3{
 
     height: 350px;
     width: 400px ;
     margin-left: 30px;
-
+    margin-right: 15px;
 }
 
 
@@ -182,3 +183,26 @@ h3{
     #contenedor4{
         font-size:larger;
     }
+    .contenedor5{
+        margin-left: 15px;
+        display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.contenedor6{
+    margin-right: 15px;
+    margin-left: 15px;
+
+    font-size: large;
+
+}
+#mensaje{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tips{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    

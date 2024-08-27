@@ -46,4 +46,37 @@ for(let iterador = 0; iterador < 30; iterador++) {
          alert ("Bienvenida" + quiensos); // Bienvenida Victoria paz
     
 
+// cajita de coentarios
+
+
+document.addEventListener('DOMContentLoaded', function() {
+   const form = document.getElementById('commentForm');
+   const commentsList = document.getElementById('commentsList');
+
+   form.addEventListener('submit', function(event) {
+       event.preventDefault(); // Prevenir el comportamiento predeterminado del formulario
+
+       const username = document.getElementById('username').value;
+       const commentText = document.getElementById('comment').value;
+
+       // Crear elementos de comentario
+       const commentElement = document.createElement('div');
+       commentElement.classList.add('comment');
+
+       const usernameElement = document.createElement('strong');
+       usernameElement.textContent = username + ': ';
+
+       const textElement = document.createElement('span');
+       textElement.textContent = commentText;
+
+       // Añadir los elementos al contenedor de comentarios
+       commentElement.appendChild(usernameElement);
+       commentElement.appendChild(textElement);
+       commentsList.appendChild(commentElement);
+
+       // Limpiar campos del formulario
+       document.getElementById('username').value = '';
+       document.getElementById('comment').value = '';
+   });
+});
 
