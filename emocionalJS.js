@@ -6,7 +6,7 @@ const introduccion = document.getElementById ("Introduccion")
 
 introduccion.addEventListener
 ('mouseover', function() {
-   introduccion.style.backgroundColor = "#d571ed "; // Cambia a violetita cuando paso el mouse
+   introduccion.style.backgroundColor = " #e63ee6 "; // Cambia a violetita cuando paso el mouse
 });
 
 
