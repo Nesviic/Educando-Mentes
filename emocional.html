@@ -14,17 +14,18 @@
    
 <!--likns del css-->
     <link rel="stylesheet" href="css/emocional.css">
-    <link rel="stylesheet" href="css/emocional.css">
     <link rel="icon" href="logo de la pagina.ico">
     
+    <link rel="stylesheet" href="css/styles.css">
+   
 
 </head>
 
-<body class="fuenteDelArchivo">
+<body class="fuenteDelArchivo body">
 
-  <div id="botondeinicio"></div>
+   <div id="botondeinicio"></div>
 
-  <nav class="navbar navbar-expand-lg bg-light">
+  <!-- <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Educando mentes</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +51,7 @@
         </ul>           
       </div>
     </div>
-  </nav>
+  </nav> -->
 
 
 
@@ -118,7 +119,7 @@
   <li ><a href="#materiadelcole">¿Por qué no es una materia en el colegio?</a></li>
   <li ><a href="#mensaje">Para entender</a></li>
   <li ><a href="#Tips">Tips y técnicas para aplicar a nuestra inteligencia emocional</a></li>
-  <li ><a href="">¿Como puedo colabprar con la causa?</a></li>
+  <li ><a href="#commentsContainer">¿Como puedo colabprar con la causa?</a></li>
 
    </ul>
 
@@ -337,6 +338,8 @@ La importancia de la educación emocional trasciende lo que se puede aprender en
 
 <h4>¿Queres colaborar con nosotras para que decenas de jovenes sepan como afrontar la vida despues de la secu?</h4>
  
+
+<!-- lo comento porque estoy proban otra forma para acomodarlo con css
 <div id="commentsContainer">
 
   <h2>Dejanos tus tips/consejos o contanos tu experiencia</h2>
@@ -359,14 +362,39 @@ La importancia de la educación emocional trasciende lo que se puede aprender en
 
   <div id="commentsList"></div>
 
+</div> -->
+
+
+
+
+
+<div id="commentsContainer" class="flex-container">
+  <div class="comment-box">
+    <h2>Dejanos tus tips/consejos o contanos tu experiencia</h2>
+    <form id="commentForm">
+      <!-- Your existing form content -->
+      <label for="username">Nombre:</label>
+      <input type="text" id="username" required>
+
+      <br>
+
+      <label for="comment">Comentario:</label>
+      <textarea id="comment" rows="4" cols="50" required></textarea>
+
+      <br>
+
+      <input id="botonpublicar" type="button" value="Publicar Comentario">
+      
+  
+
+
+    </form>
+  </div>
+  <div id="commentsList" class="comments-list"></div>
 </div>
 
-
-
-
-
-
-
+<br>
+<br>
 
 
 <!-- boton que te devuelva al incio-->
@@ -376,7 +404,17 @@ La importancia de la educación emocional trasciende lo que se puede aprender en
 
 
 </div>
+<div>
+  
+    <a href="QuizzEmocionesIndex.html" class="botonquizz" target="_blank"> Para jugar juntas</a>
+ 
+</div>
 
+<br>
+<br>
+
+
+<footer></footer>
 
 
 
