@@ -28,32 +28,52 @@ logo-titulo {
 }
 
 h1 {
-   color: antiquewhite;
+   color: rgb(232, 240, 121);
     text-align: center;
-    background-color: rgba(137, 43, 226, 0.548);
+    background-color: rgba(43, 226, 73, 0.548);
 } 
 
 h2{
     text-align: center;
 }
 
-#titulo{
+#tituloprincipal{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 55px;
     font-style: italic;
+    background-color: rgb(33, 141, 69)
 }
-.titulo2{
+
+.titulofinanciera2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-style: italic;
     justify-content: center;
+    text-align: center;
+    color: rgb(239, 247, 157);
+    background-color: rgb(8, 99, 5);
+    padding: 5px 5px;
+    border-radius: 70px;
 }
+
+.titulofinanciera3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    color: rgb(239, 247, 157);
+    background-color: rgb(8, 99, 5);
+    padding: 4px 4px;
+    border-radius: 1px;
+}
+
 #imagen {
 
     height: 400px;
     width: 400px;
     margin-left: 30px;
-    
+
 }
 .parrafo{ 
   justify-content:left;
@@ -63,6 +83,14 @@ h2{
   margin: 40px;
 }
 
+.parrafo1{ 
+    justify-content:left;
+    align-items: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 40px;
+    
+  }
 
 .contenedor{
     display: flex;
