@@ -37,7 +37,7 @@ h2{
     text-align: center;
 }
 
-#tituloprincipal{
+.tituloprincipal{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
     font-style: italic;
@@ -81,16 +81,10 @@ h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   margin: 40px;
+  line-height: 28px;
 }
 
-.parrafo1{ 
-    justify-content:left;
-    align-items: flex-start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin: 40px;
-    
-  }
+
 
 .contenedor{
     display: flex;
@@ -145,11 +139,24 @@ h3{ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-.Indice{
+.indice{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     display: flex;
     justify-content: center;
+    font-size: 40px;
+    background-color: rgb(33, 141, 69);
+    color: rgb(239, 247, 157);
+}
+.titulosdeindice{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-style: italic;
+        justify-content: center;
+        text-align: center;
+        color: rgb(239, 247, 157);
+        background-color: rgb(8, 99, 5);
+        
 }
 
 
@@ -157,9 +164,10 @@ h3{ font-family: Georgia, 'Times New Roman', Times, serif;
     
     display: flex;
     justify-content: center;
-    
+
 
 }
+
 h3{
     display: flex;
     justify-content: space-around;
@@ -175,9 +183,12 @@ h3{
 
     #menu a {
         text-decoration: none;
-        color: rgb(235, 129, 235); 
+        color: rgb(252, 207, 10); 
+        font-size: 25px;
         
 }
+        
+
 
 
 
@@ -233,4 +244,32 @@ h3{
 #tips{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-    
+.parrafolistacuentabancaria{
+justify-content:left;
+align-items: flex-start;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 19px;
+margin: 35px;
+line-height: 25px;
+}
+.listabancaria{
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.parrafobibliografia{ 
+    justify-content:left;
+    align-items: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 40px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .listabibliografia{
+        font-size: 30px;
+        text-decoration: underline;
+        font-style: oblique;
+        font-weight: bolder;
+  }
