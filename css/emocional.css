@@ -254,3 +254,13 @@ h3{
     padding-right: 20px;
   }
   
+  .botonquizz{
+    color: black;
+    background-color: #c863e7;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+  }
