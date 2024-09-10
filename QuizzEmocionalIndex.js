@@ -11,7 +11,7 @@ const quizData = [
     },
     {
         question: "Una buena forma para conectar y aprender de otros en internet es ...",
-        options: ["Interactuar en foros de internet hablando de nuestras experiencias y opinar de ciertos temas con otros", "Unirse a foros extremistas donde solo compartan nuestra opinion y critiquen a queines piensen distinto"],
+        options: ["Interactuar en foros de internet hablando de nuestras experiencias y opinar de ciertos temas con otros", "Unirse a foros extremistas donde solo compartan nuestra opinion y critiquen a quienes piensen distinto"],
         answer: "Interactuar en foros de internet hablando de nuestras experiencias y opinar de ciertos temas con otros"
       },
       {
